@@ -9,7 +9,7 @@ app = FastAPI(
 @app.get("/")
 def home():
     return {
-        "message": "**FastAPI is deployed successfully on Azure App Service"
+        "message": "**FastAPI is deployed successfully on Azure App Service***"
     }
 
 @app.get("/health")
