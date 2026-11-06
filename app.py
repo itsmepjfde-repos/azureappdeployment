@@ -9,7 +9,7 @@ app = FastAPI(
 @app.get("/")
 def home():
     return {
-        "message": "Welcome to Azure FastAPI Demo - ItsMEPJ"
+        "message": "Welcome to Azure FastAPI Demo - ItsmePJ"
     }
 
 @app.get("/health")
