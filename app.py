@@ -9,7 +9,7 @@ app = FastAPI(
 @app.get("/")
 def home():
     return {
-        "message": "FastAPI Demo - ItsmePJ - new version 7pm"
+        "message": "FastAPI Demo - ItsmePJ - new version 9:25pm"
     }
 
 @app.get("/health")
